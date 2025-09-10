@@ -1,4 +1,4 @@
-# Privacy-Preserving Federated Deep-Learning in Healthcare: A Proof-of-Concept Implementation
+# Deep-Learning Federated Analytics in Healthcare: A Proof-of-Concept Implementation
 This repo shows a proof-of-concept implementation of privacy-preserving federated learning for clinical depression screening, demonstrating how healthcare institutions can collaboratively train AI models without compromising on patient data and privacy. The implementation includes differential privacy, secure aggregation, and fine-tuning using LoRA adapters to address the challenge of multi-institutional healthcare AI collaboration.
 
 ## Short Summary & Problem Statement
