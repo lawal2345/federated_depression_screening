@@ -7,8 +7,7 @@ The primary goal of this project was to demonstrate differential privacy impleme
 ## Data Distribution Analysis
 
 ### Initial Dataset Characteristics
-
-*[Insert Image 1: Cosine Similarity Analysis here]*
+<img width="1490" height="1189" alt="image" src="https://github.com/user-attachments/assets/f6abb72a-1638-471e-8043-a077dc21a02a" />
 
 The semantic similarity analysis revealed important patterns in the depression criteria detection:
 
@@ -21,7 +20,7 @@ The distribution shows that most clinical cases in the dataset contain expressio
 
 ### Depression Severity Distribution
 
-*[Insert Image 2: Depression Criteria Detection and Correlation Analysis here]*
+<img width="1562" height="1190" alt="image" src="https://github.com/user-attachments/assets/4de13b07-f92f-4ecc-b136-1f27b488f029" />
 
 The semantic scoring revealed:
 - **Mean depression score**: 0.655
@@ -43,7 +42,7 @@ The dataset was successfully partitioned into three hospital environments:
 
 ### Hospital-Specific Characteristics
 
-*[Insert Image 4: Hospital Distribution Analysis here]*
+<img width="1489" height="990" alt="image" src="https://github.com/user-attachments/assets/6b44c7f2-26fd-4566-906c-c5351b80c694" />
 
 **Hospital A (Geriatric Focus)**:
 - Depression prevalence: 66.8%
@@ -183,8 +182,6 @@ The differential privacy framework successfully:
 The system demonstrated:
 - Successful model aggregation across 3 hospitals
 - Proper LoRA adapter weight extraction and sharing
-- Functional hospital-specific training loops
-- Effective memory management on resource-constrained hardware
 
 ### 3. Clinical Data Processing
 
@@ -194,13 +191,6 @@ The semantic analysis pipeline successfully:
 - Processed 3,000 clinical cases efficiently
 - Generated interpretable similarity scores
 
-### 4. Scalable Framework Design
-
-The implementation provides:
-- Modular hospital integration capability
-- Configurable privacy parameters per institution
-- Support for different hardware configurations
-- Extensible architecture for additional clinical tasks
 
 ## Technical Validation
 
