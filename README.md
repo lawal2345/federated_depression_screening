@@ -4,7 +4,9 @@ A privacy-preserving machine learning system that enables multiple hospitals to 
 
 ## Overview
 
-This project demonstrates federated learning with differential privacy for healthcare applications. The system uses Bio_ClinicalBERT and Flan-T5 in a dual-head architecture to classify depression severity and generate clinical explanations while maintaining strict patient privacy.
+This project demonstrates federated learning with differential privacy for healthcare applications. The system uses Bio_ClinicalBERT and Flan-T5 in a dual-head architecture to classify depression severity and generate clinical explanations while maintaining strict patient privacy. **The primary goal of this project was to demonstrate differential privacy implementation and prove the absence of data leakage in a federated learning system for healthcare applications. While model performance was secondary, the focus was on showing that sensitive patient data could not be reconstructed from the shared model updates.**
+
+
 
 ## Key Features
 
