@@ -40,7 +40,7 @@ python 3_federated_model.py    # Train federated model
 
 ## Technical Architecture
 
-- **Backbone**: Bio_ClinicalBERT with LoRA adapters (2.4% trainable parameters)
+- **Backbone**: Bio_ClinicalBERT with LoRA adapters
 - **Head A**: Depression severity classification (4 classes)
 - **Head B**: Clinical rationale generation using Flan-T5-Small
 - **Privacy**: Differential privacy with configurable ε and δ parameters
